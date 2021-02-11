@@ -1,4 +1,4 @@
-#Advanced-Python Dictonary Code
+#Advanced-Python Dictonary Code Part 1
 
 #(1)Begining Code:-
 mydict = {"name": "Taha", "age": 16, "city": "Dhaka"}#The keys and the values should be sperated with a colon
