@@ -1,4 +1,4 @@
-#Advanced-Python Dictonary SETS Part 1
+#Advanced-Python SETS Part 1
 
 #(1)Begining Code
 myset = {1,2,3}#the functions of set is similar to dictionary but a set dosen't require a keyvalue pair
