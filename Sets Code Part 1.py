@@ -1,7 +1,7 @@
 #Advanced-Python SETS Part 1
 
 #(1)Begining Code
-myset = {1,2,3}#the functions of set is similar to dictionary but a set dosen't require a keyvalue pair
+myset = {1,2,3}#the functions of set is similar to dictionary but a set doesn't require a keyvalue pair
 print(myset)
 
 #(2)Using Duplicate Data in Sets
