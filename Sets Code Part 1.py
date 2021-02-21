@@ -53,7 +53,7 @@ for x in myset11:
 #(7)Using if statements in our set
 myset12 = {9,10,11,12,8}
 if 10 in myset12:
-    print("yes")#remember the program will still run even if you don't specify a else pr elif function, if you don't specify or code a elif or else and input a element not in the set it will not show an error just blank.
+    print("yes")#remember the program will still run even if you don't specify a else or elif function.
 else:
     print("No")
 #(8)Working with Union in sets
