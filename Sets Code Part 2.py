@@ -3,7 +3,7 @@
 #(1)Finding differences between both set
 setA = {1,2,3,4}
 setB = {1,2,5,6}
-a = setA.symmetric_difference(setB)#Note that this will show the differences in both element in other words it will skip the intersection elements and show all the other elements in the 2 sets
+a = setA.symmetric_difference(setB)#Note that this will show the differences in both sets in other words it will skip the intersection elements and show all the other elements in the 2 sets
 print(a)
 
 #(2)Updating our set
