@@ -99,7 +99,7 @@ G = "    Hello world    "
 space = G.strip()#Remember strings are immutable if you still print G you will get the output with the wide spaces,non the less the strip() method helps to remove the wide spaces also remember to use variables to mention the strip() method because you are making a new string without wide spaces.
 print(space)
 
-#(11)Checking if what our strings end with and start with are true or false
+#(11)Checking if what our strings end and start with using true or false
 V = "how to get your first $100 with dropservicing"
 print(V.endswith('cing'))#we got true because our sentence end with this leters
 print(V.startswith('he'))#we got false as our sentence starts with "ho"
