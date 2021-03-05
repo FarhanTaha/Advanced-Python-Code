@@ -36,7 +36,7 @@ print(f.most_common(3)[2][1])
 
 #Making a list out of our string in counter
 my_counter7 = "aaaaabbbbbccc"
-g = Counter(my_counter5)
+g = Counter(my_counter7)
 print(list(g.elements()))#we gotta mention elements() as in we want each and every letter in our string to become a info in our list and then apply list function, remember without the element fuction we won't get the duplicate letters as they will appear only once as an info
 
 #without elements
