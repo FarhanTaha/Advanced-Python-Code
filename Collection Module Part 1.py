@@ -57,6 +57,6 @@ print(clss)
 #to remove the names(ex: x,y,z) and class we can simply use this code
 Pnt1 = namedtuple('Point', 'x,y')
 clss1 = Pnt1(-2,5)
-print(clss1.x, clss1.y)#giving .(the name of the tuple) we have already mentioned the names in out source code so we know the name of the each of the values we have in our tuple so as a result the names won't show now
+print(clss1.x, clss1.y)#giving .(the name of the tuple) we have already mentioned the names in our source code so we know the name of the each of the values we have in our tuple so as a result the names won't show now
 
 #END OF PART 1 OF COLLECTIONS MODULE IN ADVANCED-PYTHON!!!
