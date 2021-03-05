@@ -10,7 +10,7 @@ print(a)
 
 #(2)Looking at the key value pairs
 my_counter1 = "aaaaabbbbccc"
-b = Counter(my_counter)
+b = Counter(my_counter1)
 print(b.items())
 
 #(3)Looking at the keys and values separately
