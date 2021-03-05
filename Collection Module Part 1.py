@@ -15,16 +15,16 @@ print(b.items())
 
 #(3)Looking at the keys and values separately
 my_counter3 = "aaaaabbbbccc"
-c = Counter(my_counter)
+c = Counter(my_counter3)
 print(c.keys())#gives us only the keys
 
 my_counter4 = "aaaaabbbbccc"
-d = Counter(my_counter)
+d = Counter(my_counter4)
 print(d.values())#gives us only the keys
 
 #(4)Looking at the most common letter in the counter by using their indexes
 my_counter5 = "aaaaabbbbbccc"
-e = Counter(my_counter)
+e = Counter(my_counter5)
 print(e.most_common(2))#depending on how many common we wanna see we give a number in the parenthesis
 print(e.most_common(3)[2])#the value inside the parenthesis means the number of the key it can be ranged to (1-3) as there is only 3 tuples and 3 keys and the value inside the square brackets means to give us the 2nd tuple in index values.
 print(e.most_common(2)[1][1])#the value in the second square bracket means the index of the value if we gave 0 it would give us the key , so basically 0 will give key and 1 will give the value, remember the specific tuple and element should be mentioned  firstly int he first parenthesis and square bracket.
