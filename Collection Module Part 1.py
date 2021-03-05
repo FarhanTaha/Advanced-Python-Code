@@ -20,7 +20,7 @@ print(c.keys())#gives us only the keys
 
 my_counter4 = "aaaaabbbbccc"
 d = Counter(my_counter4)
-print(d.values())#gives us only the keys
+print(d.values())#gives us only the values
 
 #(4)Looking at the most common letter in the counter by using their indexes
 my_counter5 = "aaaaabbbbbccc"
